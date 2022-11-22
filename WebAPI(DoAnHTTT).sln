@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI(DoAnHTTT)", "WebAPI(DoAnHTTT).csproj", "{603639BF-923F-4010-A3E0-1EC196EF0D56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603639BF-923F-4010-A3E0-1EC196EF0D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603639BF-923F-4010-A3E0-1EC196EF0D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603639BF-923F-4010-A3E0-1EC196EF0D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603639BF-923F-4010-A3E0-1EC196EF0D56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {586BC367-0B61-45B4-8D8E-1AAE7BB85E76}
+	EndGlobalSection
+EndGlobal
