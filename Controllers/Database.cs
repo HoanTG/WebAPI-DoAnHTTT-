@@ -119,19 +119,13 @@ namespace WebAPI_DoAnHTTT_.Controllers
             param.Add("MSQA", MSQA);
             return Read_Table("XoaQuanAn", param);
         }
-        /*public static int ThemQuanAnYT(QuanAnYT quanAnYT)
+        public static int ThemTaiKhoan(AccountUser acc)
         {
             Dictionary<string, object> param = new Dictionary<string, object>();
-            param.Add("TenQA", quanAnYT.TenQA);
-            param.Add("SoNha", quanAnYT.soNha);
-            param.Add("TenD", quanAnYT.TenD);
-            param.Add("TenP", quanAnYT.TenP);
-            param.Add("TenQ", quanAnYT.TenTP);
-            param.Add("X", quanAnYT.X);
-            param.Add("Y", quanAnYT.Y);
-            int kq = int.Parse(Exec_Command("ThemQuanYeuThich", param).ToString());
+            param.Add("Username", acc.Username);
+            param.Add("PasswordUser", acc.PasswordUser);
+            int kq = int.Parse(Exec_Command("ThemTaiKhoan", param).ToString());
             return kq;
-        }*/
-
+        }
     }
 }

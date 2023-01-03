@@ -64,19 +64,16 @@ namespace WebAPI_DoAnHTTT_.Controllers
                 return NotFound();
             }
         }
-        /*[Route("api/QuanAn/ThemQuanAnYeuThich")]
+        [Route("api/ThemTaiKhoan")]
         [HttpPost]
-        public IHttpActionResult ThemQuanAnYeuThich(QuanAnYT quanAn)
+        public IHttpActionResult ThemTaiKhoan(AccountUser acc)
         {
             try
             {
-                int tb = Database.ThemQuanAnYT(quanAn);
-                return Ok(tb);
+                int kq = Database.ThemTaiKhoan(acc);
+                return Ok(kq);
             }
-            catch
-            {
-                return NotFound();
-            }
-        }*/
+            catch { return NotFound(); }
+        }
     }
 }
